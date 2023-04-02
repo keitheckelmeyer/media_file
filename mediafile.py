@@ -11,6 +11,7 @@ from vosk import Model, KaldiRecognizer, SetLogLevel
 import os, json
 import subprocess
 
+
 class Mediafile:
 
     def __init__(self, file_path: str, vosk_model: str = "model_128M"):
